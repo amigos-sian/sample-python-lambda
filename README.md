@@ -20,6 +20,11 @@ Source - https://github.com/serverless/examples/blob/v3/aws-python/README.md
 
 ## Usage
 
+### Zip and push to S3 
+
+1. `zip -r handler.zip .`
+2. `aws s3 cp handler.zip s3://<s3_bucket>`
+
 ### Deployment
 
 In order to deploy the example, you need to run the following command:
