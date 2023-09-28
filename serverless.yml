@@ -1,4 +1,4 @@
-service: sample-python-lambda-sls
+service: sample_python_lambda
 
 frameworkVersion: '3'
 
